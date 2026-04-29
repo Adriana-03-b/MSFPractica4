@@ -1,10 +1,10 @@
 \[!\[Open in MATLAB Online]
 
-# Práctica: Sistema cardiovascular
+# Práctica 4: Sistema endocrino
 
 ## Información de la estudiante
 
-Corina Plata-Ante \[03210981]; corina.plata@tectijuana.edu.mx
+Bañuelos Ocampo Adriana Estefania; L23210694@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
 
@@ -33,13 +33,9 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Descripción detallada del sistema
 
-El modelo de Windkessel de cuatro elementos contiene dos elementos dinámicos. Por lo tanto, se necesitan dos estados para describir la dinámica. El vector de estados se conforma por las variables FL(t) denotando el flujo a través de la inercia arterial total, y la variable Pp(t) representando la presión sobre la distensibilidad arterial. Entonces, asumiendo Pa(t) como la presión arterial de entrada, y en consecuencia a Fa(t) como el flujo hacia la aorta o arteria pulmonar. Los parámetros son Z, C, R y L, que representan respectivamente la impedancia característica del lecho vascular pulmonar (aorta y arteria pulmonar), la distensibilidad aérea total, la resistencia periférica y la inertancia arterial. Este modelo tiene muchas ventajas importantes, por ejemplo:
+El sistema endocrino puede representarse como un circuito eléctrico de segundo orden, ya que las hormonas se comportan de manera similar a señales eléctricas. En este modelo, la secreción hormonal se representa como una fuente de voltaje Vs(t), que actúa como estímulo inicial. El transporte de hormonas en la sangre se modela con una resistencia R1, debido a las pérdidas y retrasos en su recorrido.La acumulación de hormonas se representa con un capacitor C, que simula su almacenamiento temporal. La respuesta del órgano diana se modela con una resistencia R2 y una inductancia L, que representan la oposición al cambio y la inercia en la respuesta biológica. Finalmente, los flujos hormonales se interpretan como corrientes: uno de secreción Fe(t) y otro de absorción Fs(t).
 
-1\. Su sencillez, unos pocos elementos interconectados son suficientes para reproducir la dinámica principal del sistema cardiovascular.
-
-2\. Existe una clara analogía entre los elementos eléctricos y los componentes hidráulicos implicados en el efecto Windkessel. En consecuencia, se relacionan fácilmente con el significado hemodinámico y el acoplamiento ventrículo-arterial.
-
-Palabras clave: ???; ???; ???; ???; ???
+Palabras clave: Sistema Endocrino; Análisis matemático; Circuito eléctrico de segundo orden; Modelado fisiológico; Dinámica hormonal.
 
 ## Lista de archivos incluidos en el repositorio
 
